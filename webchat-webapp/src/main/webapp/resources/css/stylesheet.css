@@ -1,0 +1,143 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: aliceblue;
+}
+
+#header {
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #304FFE;
+    box-shadow: 0px 0.3rem 0.3rem rgba(42, 42, 46, 0.45);
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(42, 42, 46, 0.45);
+}
+
+#right_panel {
+    position: absolute;
+    right: 0.5rem;
+    text-align: center;
+}
+
+.login_input {
+    width: 5rem;
+    background: #c0caff;
+}
+
+.login_button {
+    display: inline-block;
+    width: 5rem;
+}
+
+#page_name {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#chat_window {
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem rgba(42, 42, 46, 0.45);
+}
+
+#mode_buttons {
+    text-align: center;
+}
+
+.mode_button {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #304FFE;
+    box-shadow: 0.1rem 0.1rem 0.3rem rgba(42, 42, 46, 0.45);
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(42, 42, 46, 0.45);
+    cursor: pointer;
+    user-select: none;
+}
+
+.mode_button_highlight {
+    background-color: #1538ff;
+}
+
+#mode_name {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #536DFE;
+    border-bottom: 0.1rem inset #4965ff;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(42, 42, 46, 0.45);
+}
+
+#msg_zone {
+    background-color: #eaedff;
+    border-bottom: 0.1rem inset #d5dcff;
+}
+
+#chat_inputs {
+    text-align: center;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    outline-color: rgba(42, 42, 46, 0.45);
+    border-bottom: 0.1rem ridge #F50057;
+    margin: 0.3rem;
+}
+
+#to_input {
+    width: 25%;
+    margin-right: 1rem;
+}
+
+#msg_input {
+    width: 65%;
+    margin-left: 1rem;
+}
+
+#chat_buttons {
+    text-align: center;
+}
+
+.chat_button {
+    display: inline-block;
+    font-size: 1rem;
+    background-color: #F50057;
+    padding: 0.2rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem rgba(42, 42, 46, 0.45);
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(42, 42, 46, 0.45);
+    margin: 0.3rem;
+    width: 4rem;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.chat_button_highlight {
+    background-color: #d1034d;
+}
+
+#chat_area {
+    height: 30rem;
+    width: 80rem;
+    font-size: 1rem;
+    background-color: #eaedff;
+    overflow-y: scroll;
+}
+
+.message_one {
+    color: black;
+    padding-bottom: 0.1rem;
+    padding-left: 0.5rem;
+}
+.message_two {
+    color: black;
+    padding-bottom: 0.1rem;
+    padding-left: 0.5rem;
+    background-color: rgba(193, 202, 255, 0.3);
+}
